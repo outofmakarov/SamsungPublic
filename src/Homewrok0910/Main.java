@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args){
         Scanner console = new Scanner(System.in);
         boolean isExit = false;
+
         while( isExit != true){
             int firstDigit = console.nextInt();
             String mathOper = console.next();
